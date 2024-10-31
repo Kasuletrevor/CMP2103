@@ -14,7 +14,7 @@ int main()
     cout << "Enter divisor: ";
     cin >> divisor;
 
-    assert(divisor != 0);
+    assert(divisor != 0 && "Error the divisor is zero!");
     assert(divisor > 0);
 
     quotient = dividend / divisor;
