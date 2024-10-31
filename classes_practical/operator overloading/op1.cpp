@@ -46,13 +46,6 @@ public:
         temp.y = y + c2.y;
         return temp;
     }
-
-    //     Complex &operator++()
-    // {
-    //     x++;
-    //     y++;
-    //     return *this;
-    // }
 };
 
 ostream &operator<<(ostream &obj, Complex &c1)
